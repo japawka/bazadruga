@@ -8,7 +8,7 @@
           {% if nowy %}
                 <h5 class="card-title">Nowy Film</h5>
             {% else %}
-                <h5 class="card-title">Edytuj film</h5>
+                <h5 class="card-title">Zapisz film</h5>
             {% endif %}
 
         <form method="post" enctype="multipart/form-data">
@@ -62,4 +62,3 @@
 
     <a href="{% url 'wszystkie_filmy' %}">Cofnij</a>
 {% endblock %}
-            {{ actors }}
