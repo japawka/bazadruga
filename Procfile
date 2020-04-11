@@ -1,0 +1,1 @@
+web: gunicorn bazafilmow.wsgi --log-file -
